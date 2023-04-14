@@ -1,0 +1,43 @@
+nav {
+  background-color: #333; /* Set background color */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide overflow content */
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white; /* Set link color */
+  text-align: center;
+  padding: 14px 16px; /* Set link padding */
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111; /* Set background color on hover */
+}
+
+.foodform {
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  padding-left: 0%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
